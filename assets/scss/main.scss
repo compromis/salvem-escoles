@@ -1,0 +1,24 @@
+@import '@compromis/blobby/scss/variables';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+:root {
+  --primary: #F16B14;
+  --blue: #425CC7;
+  --max-width: 900px;
+}
+
+html,
+body {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.card {
+  --card-padding: 1.5rem;
+  background: var(--white);
+  color: var(--text-color);
+  padding: var(--card-padding);
+  max-width: var(--max-width);
+}
