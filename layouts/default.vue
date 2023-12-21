@@ -12,6 +12,9 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
       <template #logo-append>Salvem escoles</template>
     </BNav>
 
+    <img src="~assets/images/wrecking-ball.svg" alt="Una grua derriba el titol de Salvem Escoles" class="wrecking-ball" />
+    <img src="~assets/images/crane.svg" alt="Grua" class="crane" />
+
     <slot />
     <div class="container footer">
       <BFooter variant="dark" />
@@ -31,5 +34,21 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 .footer {
   color: var(--white);
   padding: 1rem;
+}
+
+.wrecking-ball {
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  width: calc(100px + 20vw);
+  z-index: 0;
+}
+
+.crane {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: calc(100px + 20vw);
+  z-index: 0;
 }
 </style>
