@@ -14,33 +14,36 @@
 
       <section class="card rounded shadow intro">
         <h2 class="intro-title">El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació</h2>
-        <p class="intro-text">Les retallades en el pressupost i els canvis en la normativa es traslladen a una realitat molt concreta sobre el terreny</p>
+        
+        <p class="intro-text">
+          Unes retallades que afectaran principalment al manteniment i construcció de centres educatius.
+        </p>
 
         <div class="facts">
           <article class="fact">
-            <span class="fact-number">341</span>
+            <AnimatedNumber class="fact-number" :from="0" :to="341" />
             <span class="fact-text">centres educatius en perill</span>
           </article>
 
           <article class="fact">
-            <span class="fact-number">174</span>
+            <AnimatedNumber class="fact-number" :from="0" :to="174" />
             <span class="fact-text">municipis afectats</span>
           </article>
 
-          <article class="fact">
-            <span class="fact-number">1.400M €</span>
+          <article class="fact full">
+            <AnimatedNumber class="fact-number" :from="0" :to="1400" append="M €" />
             <span class="fact-text">adjudicats i que no s’executaran</span>
           </article>
 
-          <article class="fact">
-            <span class="fact-number">35.000</span>
+          <article class="fact full">
+            <AnimatedNumber class="fact-number" :from="0" :to="35000" />
             <span class="fact-text">llocs de treball de la construcció afectats directament o indirectament.</span>
           </article>
         </div>
       </section>
 
       <section class="centre-list">
-        <h2 class="centre-list-title">Consulta...</h2>
+        <h2 class="centre-list-title">Consulta si el teu centre<br>està en perill</h2>
 
         <Centres />
       </section>
@@ -119,6 +122,10 @@ main {
   &-text {
     display: block;
     line-height: 1.25;
+  }
+
+  &.full {
+    grid-column: span 2;
   }
 }
 
