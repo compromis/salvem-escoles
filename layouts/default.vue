@@ -9,7 +9,7 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
     <BNav>
       <BNavItem v-if="$route.path === '/cas'" href="/">Valencià</BNavItem>
       <BNavItem v-else href="/cas">Castellano</BNavItem>
-      <template #logo-append>Salvem escoles</template>
+      <template #logo-append>{{ $t('header.title') }}</template>
     </BNav>
 
     <img src="~assets/images/wrecking-ball.svg" alt="Una grua derriba el titol de Salvem Escoles" class="wrecking-ball" />

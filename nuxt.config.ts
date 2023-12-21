@@ -51,4 +51,24 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  modules: [
+    '@nuxtjs/i18n',
+  ],
+
+  i18n: {
+    locales: [
+      {
+        code: 'val',
+        file: 'val.js'
+      },
+      {
+        code: 'cas',
+        file: 'cas.js'
+      }
+    ],
+    lazy: true,
+    langDir: 'lang',
+    defaultLocale: 'val'
+  },
 })
