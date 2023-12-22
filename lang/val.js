@@ -10,7 +10,7 @@ export default {
     text: `
     El govern del Botànic va realitzar més de 500 grans reformes i construccions de centres educatius.
     També va deixar feta una planificació d’actuacions en marxa i tramitant-se fins a 2027.
-    Ara, PP i Vox ho volen paralitzar i centenars obres corren perill de no realitzar-se
+    Ara, PP i Vox ho volen paralitzar i centenars d'obres corren perill de no realitzar-se
     per les retallades.
     `
   },
