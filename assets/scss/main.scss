@@ -18,6 +18,8 @@ html,
 body {
   background-color: var(--primary);
   color: var(--white);
+  scroll-behavior: smooth;
+  scroll-padding-top: 14rem;
 }
 
 .card {

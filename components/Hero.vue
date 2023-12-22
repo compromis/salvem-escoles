@@ -7,6 +7,11 @@
       <img src="~assets/images/warning.png" alt="Alerta" />
     </span>
   </h1>
+  <div class="cta">
+    <a href="#centres">
+      ↓ <span>{{ $t('header.cta') }}</span> ↓
+    </a>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -14,8 +19,7 @@
   text-align: center;
 
   &-title {
-    width: 100%;
-    max-width: var(--max-width);
+    height: calc(15rem + 15vh);
   }
 
   &-warning {
@@ -26,13 +30,30 @@
     padding: 1rem 2rem;
     border-radius: 20rem;
     width: fit-content;
-    margin: 4rem auto;
+    margin: 4rem auto 2rem;
     text-wrap: balance;
     font-size: var(--text-xl);
     letter-spacing: -.03em;
 
     img {
       height: 1em;
+    }
+  }
+}
+
+.cta {
+  text-align: center;
+  font-size: var(--text-lg);
+
+  a {
+    color: var(--white);
+
+    &:hover {
+      text-decoration: none;
+
+      span {
+        text-decoration: underline;
+      }
     }
   }
 }

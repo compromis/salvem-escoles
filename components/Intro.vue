@@ -15,16 +15,16 @@
       </article>
 
       <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="174" />
+        <AnimatedNumber class="fact-number" :from="0" :to="178" />
         <span class="fact-text">{{ $t('facts.affected_municipalities') }}</span>
       </article>
 
-      <article class="fact full">
+      <article class="fact">
         <AnimatedNumber class="fact-number" :from="0" :to="1400" append="M €" />
         <span class="fact-text">{{ $t('facts.alloted_budget') }}</span>
       </article>
 
-      <article class="fact full">
+      <article class="fact">
         <AnimatedNumber class="fact-number" :from="0" :to="35000" />
         <span class="fact-text">{{ $t('facts.jobs_in_danger') }}</span>
       </article>
@@ -34,7 +34,7 @@
 
 <style lang="scss" scoped>
 .intro {
-  margin: 6rem auto;
+  margin: calc(2rem + 5vh) auto;
   font-size: var(--text-md);
 
   &-title {

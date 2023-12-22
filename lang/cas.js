@@ -2,14 +2,13 @@ export default {
   header: {
     title: 'Salvem escoles',
     warning: 'Centres educatius en perill',
+    cta: 'Consulta el teu centre'
   },
 
   intro: {
     title: 'El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació',
     text: `
-      El govern del Botànic va deixar planificada la construcció i reforma de centres educatius fins al 2027. 
-      Ara, PP i Vox volen desfer tot això amb unes retallades que posen en perill centenars de
-      centres edicatius que ja contaven amb aquestes millores. Altres, directament, no es construiran.
+    El govern del Botànic va realitzar més de 500 grans reformes i construccions de centres educatius. També va deixar feta una planificació d’actuacions en marxa i tramitant-se fins a 2027. Ara, PP i Vox ho volen paralitzar i centenars obres corren perill de no realitzar-se per les retallades.
     `
   },
 

@@ -12,7 +12,7 @@
 <style lang="scss">
 .page {
   position: relative;
-  margin-top: 15rem;
+  margin-top: calc(5rem + 10vh);
   z-index: 1;
 }
 
