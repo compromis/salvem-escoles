@@ -1,22 +1,24 @@
 export default {
   header: {
-    title: 'Salvem escoles',
-    warning: 'Centres educatius en perill',
-    cta: 'Consulta el teu centre'
+    title: 'Salvemos escuelas',
+    warning: 'Centros educativos en peligro',
+    cta: 'Consulta tu centro'
   },
 
   intro: {
-    title: 'El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació',
+    title: 'El gobierno de Mazón (PP y VOX) ha anunciado recortes en el presupuesto de Educación',
     text: `
-    El govern del Botànic va realitzar més de 500 grans reformes i construccions de centres educatius. També va deixar feta una planificació d’actuacions en marxa i tramitant-se fins a 2027. Ara, PP i Vox ho volen paralitzar i centenars d'obres corren perill de no realitzar-se per les retallades.
+      El gobierno del Botànic realizó más de 500 grandes reformas y construcciones de centros educativos.
+      También dejó hecha una planificación hasta 2027 de actuaciones en marcha y que ya se están tramitando.
+      Ahora, PP y Vox quieren paralizarlo y cientos de obras corren peligro de no realizarse por los recortes.
     `
   },
 
   facts: {
-    schools_in_danger: 'Centres educatius en perill',
-    affected_municipalities: 'Municipis afectats',
-    alloted_budget: 'Adjudicats per a construcció i millores d\'escoles que no s’executaran',
-    jobs_in_danger: 'Llocs de treball de la construcció afectats directament o indirectament'
+    schools_in_danger: 'Centros educativos en peligro',
+    affected_municipalities: 'Municipios afectados',
+    alloted_budget: 'Adjudicados para construcción y mejoras de escuelas que no se ejecutarán',
+    jobs_in_danger: 'Puestos de trabajo de construcción afectados directamente o indirectamente.'
   },
 
   amiguitos: {
@@ -28,10 +30,10 @@ export default {
   },
 
   centres: {
-    title: 'Consulta si el teu centre està en perill',
-    filter: 'Troba el teu centre...',
-    municipality: 'Municipi',
-    name: 'Centre',
-    no_results: 'De moment tens sort...'
+    title: 'Consulta si tu centro está en peligro',
+    filter: 'Encuentra tu centro...',
+    municipality: 'Municipio',
+    name: 'Centro',
+    no_results: 'Por ahora tienes suerte...'
   }
 }
