@@ -14,7 +14,10 @@ const filteredCentres = computed(() => {
 </script>
 
 <template>
-  <div id="centres" :class="['centres', 'card', 'shadow', 'rounded', { expanded: expanded || filter }]">
+  <div
+    id="centres"
+    :class="['centres', 'card', 'shadow', 'rounded', { expanded: expanded || filter }]"
+    @click="expanded = true">
     <form class="centres-filter">
       <input
         type="search"

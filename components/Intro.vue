@@ -10,22 +10,22 @@
 
     <div class="facts">
       <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="341" />
+        <AnimatedNumber class="fact-number" :from="0" :to="341" :duration="1.25" />
         <span class="fact-text">{{ $t('facts.schools_in_danger') }}</span>
       </article>
 
       <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="178" />
+        <AnimatedNumber class="fact-number" :from="0" :to="178" :duration=".75" />
         <span class="fact-text">{{ $t('facts.affected_municipalities') }}</span>
       </article>
 
       <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="1400" append="M €" />
+        <AnimatedNumber class="fact-number" :from="0" :to="1400" :duration="2.75" append="M €" />
         <span class="fact-text">{{ $t('facts.alloted_budget') }}</span>
       </article>
 
       <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="35000" />
+        <AnimatedNumber class="fact-number" :from="0" :to="35000" :duration="2" />
         <span class="fact-text">{{ $t('facts.jobs_in_danger') }}</span>
       </article>
     </div>
@@ -71,8 +71,10 @@
     display: block;
     line-height: 1.25;
   }
+}
 
-  &.full {
+@include media-breakpoint-down(md) {
+  .fact {
     grid-column: span 2;
   }
 }

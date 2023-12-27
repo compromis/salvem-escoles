@@ -1,6 +1,7 @@
 <template>
   <h1 class="headline">
-    <img src="~assets/images/salvem-escoles.svg" :alt="$t('header.title')" class="headline-title" />
+    <img v-if="$i18n.locale === 'cas'" src="~assets/images/salvemos-escuelas.svg" :alt="$t('header.title')" class="headline-title" />
+    <img v-else src="~assets/images/salvem-escoles.svg" :alt="$t('header.title')" class="headline-title" />
     <span class="headline-warning">
       <img src="~assets/images/warning.png" alt="Alerta" />
       {{ $t('header.warning') }}
@@ -54,6 +55,19 @@
       span {
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .headline {
+    &-title {
+      width: 100%;
+      height: auto;
+    }
+
+    &-warning {
+      margin: 2rem auto 1rem;
     }
   }
 }

@@ -51,4 +51,16 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
   width: calc(100px + 20vw);
   z-index: 0;
 }
+
+@include media-breakpoint-down(md) {
+  .wrecking-ball {
+    width: 55vw;
+    top: 4rem;
+  }
+
+  .crane {
+    width: 65vw;
+    bottom: -1rem;
+  }
+}
 </style>

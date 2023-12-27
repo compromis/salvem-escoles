@@ -9,7 +9,7 @@ export default {
     title: 'El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació',
     text: `
     El govern del Botànic va realitzar més de 500 grans reformes i construccions de centres educatius.
-    També va deixar feta una planificació d’actuacions en marxa i tramitant-se fins a 2027.
+    També va deixar feta una planificació fins a 2027 d’actuacions en marxa i que ja s'estan tramitant.
     Ara, PP i Vox ho volen paralitzar i centenars d'obres corren perill de no realitzar-se
     per les retallades.
     `

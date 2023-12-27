@@ -11,6 +11,10 @@ const props = defineProps({
   append: {
     type: String,
     default: ''
+  },
+  duration: {
+    type: Number,
+    default: 1.25
   }
 })
 
@@ -24,7 +28,7 @@ const numberFormat = (number) => {
 onMounted(() => {
   $gsap.from(animatedNumber.value, {
     textContent: props.from,
-    duration: 1.25,
+    duration: props.duration,
     snap: { textContent: 1 },
     stagger: 1,
     ease: 'Power1.easeIn',
