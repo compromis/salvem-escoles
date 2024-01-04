@@ -30,5 +30,6 @@
   padding: .25rem 1rem;
   border-radius: 10rem;
   margin: 0 1rem;
+  white-space: nowrap;
 }
 </style>
