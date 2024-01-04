@@ -5,6 +5,11 @@ export default {
     cta: 'Consulta el teu centre'
   },
 
+  seo: {
+    title: 'Salvem escoles - Centres educatius en perill - Compromís',
+    description: 'El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació'
+  },
+
   intro: {
     title: 'El govern de Mazón (PP i VOX) ha anunciat retallades en el pressupost d’Educació',
     text: `

@@ -5,6 +5,11 @@ export default {
     cta: 'Consulta tu centro'
   },
 
+  seo: {
+    title: 'Salvemos escuelas - Centros educativos en peligro - Compromís',
+    description: 'El gobierno de Mazón (PP y VOX) ha anunciado recortes en el presupuesto de Educación'
+  },
+
   intro: {
     title: 'El gobierno de Mazón (PP y VOX) ha anunciado recortes en el presupuesto de Educación',
     text: `
