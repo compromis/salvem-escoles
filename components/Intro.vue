@@ -1,41 +1,47 @@
 <template>
-  <section class="card rounded shadow intro">
-    <h2 class="intro-title">
-      {{ $t('intro.title') }}
-    </h2>
+  <section class="intro">
+    <article class="card rounded shadow intro-card">
+      <h2 class="intro-title">
+        {{ $t('intro.title') }}
+      </h2>
 
-    <p class="intro-text">
-      {{ $t('intro.text') }}
-    </p>
+      <p class="intro-text">
+        {{ $t('intro.text') }}
+      </p>
 
-    <div class="facts">
-      <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="341" :duration="1.25" />
-        <span class="fact-text">{{ $t('facts.schools_in_danger') }}</span>
-      </article>
+      <div class="facts">
+        <div class="fact">
+          <AnimatedNumber class="fact-number" :from="0" :to="341" :duration="1.25" />
+          <span class="fact-text">{{ $t('facts.schools_in_danger') }}</span>
+        </div>
 
-      <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="178" :duration=".75" />
-        <span class="fact-text">{{ $t('facts.affected_municipalities') }}</span>
-      </article>
+        <div class="fact">
+          <AnimatedNumber class="fact-number" :from="0" :to="178" :duration=".75" />
+          <span class="fact-text">{{ $t('facts.affected_municipalities') }}</span>
+        </div>
 
-      <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="1400" :duration="2.75" append="M €" />
-        <span class="fact-text">{{ $t('facts.alloted_budget') }}</span>
-      </article>
+        <div class="fact">
+          <AnimatedNumber class="fact-number" :from="0" :to="1400" :duration="2.75" append="M €" />
+          <span class="fact-text">{{ $t('facts.alloted_budget') }}</span>
+        </div>
 
-      <article class="fact">
-        <AnimatedNumber class="fact-number" :from="0" :to="35000" :duration="2" />
-        <span class="fact-text">{{ $t('facts.jobs_in_danger') }}</span>
-      </article>
-    </div>
+        <div class="fact">
+          <AnimatedNumber class="fact-number" :from="0" :to="35000" :duration="2" />
+          <span class="fact-text">{{ $t('facts.jobs_in_danger') }}</span>
+        </div>
+      </div>
+    </article>
+    <aside class="video shadow">
+      <iframe width="315" height="560" src="https://www.youtube.com/embed/OcHpmhwu1GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .intro {
-  margin: calc(2rem + 5vh) auto;
-  font-size: var(--text-md);
+  margin: calc(2rem + 5vh) 0;
+  display: flex;
+  gap: 1rem;
 
   &-title {
     font-size: var(--text-2xl);
@@ -47,11 +53,31 @@
   }
 }
 
+.video {
+  width: 100%;
+  background: var(--gray-900);
+  overflow: hidden;
+  border-radius: 1rem;
+
+  iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+  }
+}
+
+.intro-card {
+  max-width: unset;
+  display: flex;
+  flex-direction: column;
+}
+
 .facts {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: calc(var(--card-padding) * -1);
-  margin-top: var(--card-padding);
+  margin-top: auto;
 }
 
 .fact {
@@ -70,6 +96,12 @@
   &-text {
     display: block;
     line-height: 1.25;
+  }
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    flex-direction: column;
   }
 }
 

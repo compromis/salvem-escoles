@@ -18,6 +18,7 @@ useSeoMeta({
       <Intro />
       <CentreList />
       <LongassList />
+      <Contact />
     </div>
   </main>
 </template>

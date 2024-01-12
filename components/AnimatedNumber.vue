@@ -52,5 +52,6 @@ onMounted(() => {
 <style lang="scss" scoped>
 .animated-number {
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 </style>
