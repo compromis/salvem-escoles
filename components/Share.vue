@@ -54,7 +54,7 @@
       &-image {
         display: flex;
         align-items: end;
-        transform: rotate(10deg) translate(-1em, -1em);
+        transform: rotate(10deg) translate(1em, -1em);
       }
     }
 
@@ -117,6 +117,18 @@
 
     .twitter {
       border-radius: 0 0 .85rem 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .share {
+    .header {
+      flex-direction: column;
+
+      &-image {
+        margin-top: -3rem;
+      }
     }
   }
 }

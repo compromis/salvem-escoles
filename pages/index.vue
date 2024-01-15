@@ -24,7 +24,7 @@ useSeoMeta({
   </main>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .page {
   position: relative;
   margin-top: calc(5rem + 10vh);
@@ -33,5 +33,9 @@ useSeoMeta({
 
 .text {
   font-size: var(--text-xl);
+}
+
+.container {
+  overflow: clip;
 }
 </style>

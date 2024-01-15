@@ -12,7 +12,7 @@ const progress = computed(() => {
 
 <template>
   <div :class="['video-player', { playing }]">
-    <video autoplay loop muted ref="video" @click="playing = !playing" />
+    <video loop playsinline ref="video" @click="playing = !playing" />
     <button class="play" @click="playing = !playing">
       <template v-if="playing">
         <IconPause />

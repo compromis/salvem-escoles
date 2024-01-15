@@ -70,5 +70,8 @@
       margin: 2rem auto 1rem;
     }
   }
+  .nav-scrolled .nav-card {
+    border-radius: var(--border-radius) !important;
+  }
 }
 </style>
