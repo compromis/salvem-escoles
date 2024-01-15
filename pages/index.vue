@@ -19,6 +19,7 @@ useSeoMeta({
       <CentreList />
       <LongassList />
       <Contact />
+      <Share />
     </div>
   </main>
 </template>

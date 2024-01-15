@@ -1,5 +1,5 @@
 <template>
-  <section class="intro">
+  <section class="intro" id="intro">
     <article class="card rounded shadow intro-card">
       <h2 class="intro-title">
         {{ $t('intro.title') }}
@@ -32,7 +32,8 @@
       </div>
     </article>
     <aside class="video shadow">
-      <iframe width="315" height="560" src="https://www.youtube-nocookie.com/embed/OcHpmhwu1GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <IntroVideo />
+      <!--<iframe width="315" height="560" src="https://www.youtube-nocookie.com/embed/OcHpmhwu1GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
     </aside>
   </section>
 </template>
@@ -58,6 +59,7 @@
   background: var(--gray-900);
   overflow: hidden;
   border-radius: 1rem;
+  position: relative;
 
   iframe {
     display: block;

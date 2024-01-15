@@ -6,6 +6,7 @@
 :root {
   --primary: #F16B14;
   --blue: #425CC7;
+  --yellow: #F6B225;
   --max-width: 900px;
   --text-md: 1.25rem;
   --text-lg: 1.5rem;
@@ -28,6 +29,22 @@ body {
   color: var(--text-color);
   padding: var(--card-padding);
   max-width: var(--max-width);
+}
+
+a {
+  &:focus {
+    box-shadow: 0 !important;
+    outline: 3px #ffcd68 solid;
+    outline-offset: 3px;
+  }
+}
+
+.nav-menu {
+  margin-left: 0;
+}
+
+.basic-nav .nav-menu-item {
+  font-weight: bold;
 }
 
 @include media-breakpoint-down(md) { 

@@ -40,5 +40,15 @@ export default {
     municipality: 'Municipio',
     name: 'Centro',
     no_results: 'Por ahora tienes suerte...'
+  },
+
+  contact: {
+    title: 'Bústia de consultes',
+    text: 'Hem habilitat esta bústia per escoltar els teus problemes, els teus dubtes i les teues solicituds per fer-les arribar a les Corts Valencianes.'
+  },
+
+  share: {
+    title: 'Fes difusió!',
+    text: 'Comparteix aquesta pàgina amb els teus companys, veïns i coneguts per tal de conèixer totes les demandes i queixes i poder treballar per una educació pública i de qualitat.'
   }
 }

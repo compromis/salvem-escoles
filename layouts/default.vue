@@ -7,6 +7,16 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 <template>
   <div>
     <BNav>
+      <BNavItem href="#intro">
+        Presentació
+      </BNavItem>
+      <BNavItem href="#centres">
+        Centres en perill
+      </BNavItem>
+      <BNavItem href="#bustia">
+        Bústia
+      </BNavItem>
+
       <template #basic-nav>
         <BNavItem v-if="$route.path === '/cas'" href="/">
           <span class="d-none d-md-inline">Valencià</span>

@@ -54,6 +54,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/i18n',
+    '@vueuse/nuxt'
   ],
 
   i18n: {

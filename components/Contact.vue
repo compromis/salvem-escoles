@@ -1,14 +1,14 @@
 <template>
-  <section class="contact">
+  <section class="contact" id="bustia">
     <div class="outline-card">
       <div class="header">
         <div class="header-content">
-          <h2>Bústia de consultes</h2>
+          <h2>{{ $t('contact.title') }}</h2>
           <p class="text">
-            Hem habilitat esta bústia per escoltar els teus problemes, els teus dubtes i les teues solicituts per fer-les arribar a les Corts Valencianes.
+            {{ $t('contact.text') }}
           </p>
         </div>
-        <div class="header-image">
+        <div class="header-image ms-auto">
           <img src="../assets/images/mailbox.png" alt="" class="mailbox" />
         </div>
       </div>
@@ -29,6 +29,7 @@
     border-radius: 1rem;
     margin: 0 auto;
     position: relative;
+    background-color: rgba(#F16B14, .75);
 
     .header {
       position: relative;
@@ -87,6 +88,18 @@
         transition: .5s ease;
         white-space: nowrap;
         transform: translateX(-100%);
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .contact {
+    .header {
+      flex-direction: column;
+
+      &-image {
+        margin-top: -3rem;
       }
     }
   }
