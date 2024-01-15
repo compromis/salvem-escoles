@@ -22,6 +22,7 @@
   .text {
     max-width: var(--max-width);
     margin: 0 auto;
+    font-size: var(--text-xl);
   }
 }
 
