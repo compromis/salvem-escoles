@@ -49,6 +49,7 @@
   }
 
   &-text {
+    font-size: var(--text-md);
     margin-top: 2rem;
   }
 }
@@ -97,6 +98,7 @@
   &-text {
     display: block;
     line-height: 1.25;
+    font-size: var(--text-md);
   }
 }
 
