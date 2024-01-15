@@ -59,7 +59,7 @@
   }
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(lg) {
   .headline {
     &-title {
       width: 100%;

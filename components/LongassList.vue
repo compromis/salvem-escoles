@@ -5,7 +5,7 @@
       a les Corts i quasi tan gran com la cara de vergonya de Mazón i el Conseller d'Educació.
     </p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KoB4IXQhhE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KoB4IXQhhE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </section>
 </template>
 

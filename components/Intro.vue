@@ -32,7 +32,7 @@
       </div>
     </article>
     <aside class="video shadow">
-      <iframe width="315" height="560" src="https://www.youtube.com/embed/OcHpmhwu1GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="315" height="560" src="https://www.youtube-nocookie.com/embed/OcHpmhwu1GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </aside>
   </section>
 </template>
@@ -49,7 +49,7 @@
   }
 
   &-text {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 

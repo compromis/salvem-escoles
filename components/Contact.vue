@@ -2,12 +2,15 @@
   <section class="contact">
     <div class="outline-card">
       <div class="header">
-        <h2>Bústia de consultes</h2>
-        <p class="text">
-          Hem habilitat esta bústia per escoltar els teus problemes, els teus dubtes i les teues solicituts per fer-les arribar a les Corts Valencianes.
-        </p>
-
-        <img src="../assets/images/mailbox.png" alt="" class="mailbox" />
+        <div class="header-content">
+          <h2>Bústia de consultes</h2>
+          <p class="text">
+            Hem habilitat esta bústia per escoltar els teus problemes, els teus dubtes i les teues solicituts per fer-les arribar a les Corts Valencianes.
+          </p>
+        </div>
+        <div class="header-image">
+          <img src="../assets/images/mailbox.png" alt="" class="mailbox" />
+        </div>
       </div>
       <a href="mailto:salvemescoles@compromis.net" class="email">
         <span>-&gt;</span> salvemescoles@compromis.net
@@ -29,26 +32,30 @@
 
     .header {
       position: relative;
-      padding: 1.5rem;
+      display: flex;
+      gap: 1rem;
+
+      &-content {
+        padding: 1.5rem;
+      }
+
+      &-image {
+        display: flex;
+        align-items: end;
+      }
     }
 
     h2 {
       padding-bottom: 0;
       margin-bottom: .5rem;
-      max-width: 80%;
     }
 
     .text {
       margin: 0;
-      max-width: 80%;
       font-size: var(--text-lg);
-      margin-bottom: 2rem;
     }
 
     .mailbox {
-      position: absolute;
-      bottom: 0;
-      right: 0;
       width: 10.5rem;
     }
 
