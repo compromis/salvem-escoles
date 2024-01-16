@@ -43,12 +43,17 @@ export default {
   },
 
   contact: {
-    title: 'Bústia de consultes',
-    text: 'Hem habilitat esta bústia per escoltar els teus problemes, els teus dubtes i les teues solicituds per fer-les arribar a les Corts Valencianes.'
+    title: 'Buzón de consultas',
+    text: 'Hemos habilitado este buzón para escuchar tus problemas, tus dudas y tus solicitudes para hacerlas llegar a Les Corts Valencianes.'
   },
 
   share: {
-    title: 'Fes difusió!',
-    text: 'Comparteix aquesta pàgina amb els teus companys, veïns i coneguts per tal de conèixer totes les demandes i queixes i poder treballar per una educació pública i de qualitat.'
+    title: '¡Difúndelo!',
+    text: 'Comparte esta página con tus compañeros, venas y conexiones para tal de conocer todas las demandas y queixes y poder treballar por una educación pública y de calidad.'
+  },
+
+  video: {
+    play: 'Reproducir',
+    pause: 'Pausar'
   }
 }

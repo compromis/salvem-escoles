@@ -49,7 +49,7 @@ const progress = computed(() => {
     color: var(--blue);
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(var(--scale, 1));
     font-weight: bold;
     border: 0;
     border-radius: 10rem;
@@ -81,6 +81,10 @@ const progress = computed(() => {
       opacity: 1;
     }
   }
+
+  &:hover .play {
+    --scale: 1.1;
+  }
 }
 
 .progress {
@@ -89,6 +93,7 @@ const progress = computed(() => {
   left: 0;
   right: 0;
   padding: .75rem;
+  pointer-events: none;
 
   &-track {
     height: .75rem;
