@@ -57,7 +57,7 @@ export default {
 
   share: {
     title: 'Fes difusió!',
-    text: 'Comparteix aquesta pàgina amb els teus companys, veïns i coneguts per tal de conèixer totes les demandes i queixes i poder treballar per una educació pública i de qualitat.'
+    text: 'Comparteix aquesta pàgina amb els teus companys/es, veïns/es i coneguts/des per tal de conèixer totes les demandes i queixes i poder treballar per una educació pública i de qualitat.'
   },
 
   video: {

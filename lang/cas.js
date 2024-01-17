@@ -49,7 +49,7 @@ export default {
 
   share: {
     title: '¡Difúndelo!',
-    text: 'Comparte esta página con tus compañeros, venas y conexiones para tal de conocer todas las demandas y queixes y poder treballar por una educación pública y de calidad.'
+    text: 'Comparte esta página con tus compañeros/as, vecinos/as y conocidos/as por una educación pública y de calidad.'
   },
 
   video: {

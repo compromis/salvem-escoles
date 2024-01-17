@@ -1,7 +1,7 @@
 <template>
   <section class="longass-list">
     <p class="text">
-      Una llista tan llarga que ocupava <span class="meters">&lt;- 8m -&gt;</span> quan la vam traure
+      Una llista tan llarga que ocupava <a href="https://www.tiktok.com/@compromis_net/video/7307297637080763680" target="_blank" class="meters">&lt;- 8m -&gt;</a> quan la vam traure
       a les Corts.
     </p>
 
@@ -30,7 +30,14 @@
   border: 2px var(--white) solid;
   padding: .25rem 1rem;
   border-radius: 10rem;
-  margin: 0 1rem;
+  margin: 0 .2em;
   white-space: nowrap;
+  color: var(--white);
+
+  &:hover {
+    background: var(--white);
+    color: var(--primary);
+    text-decoration: none;
+  }
 }
 </style>
