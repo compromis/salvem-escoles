@@ -54,7 +54,8 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/i18n',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    'nuxt-cloudflare-analytics'
   ],
 
   i18n: {
@@ -72,4 +73,8 @@ export default defineNuxtConfig({
     langDir: 'lang',
     defaultLocale: 'val'
   },
+
+  cloudflareAnalytics: {
+    token: '2bd8d268fcb04c08b7423e153cf63f2b'
+  }
 })
