@@ -288,6 +288,10 @@ export default [
     "Name": "CEIP LOS PINOS"
   },
   {
+    "Municipality": "BOCAIRENT",
+    "Name": "CEIP LLUIS VIVES"
+  },
+  {
     "Municipality": "BONREPÒS I MIRAMBELL",
     "Name": "CEIP MARE DE DÉU DEL PILAR"
   },
